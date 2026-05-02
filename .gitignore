@@ -1,0 +1,26 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*~
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript incremental
+*.tsbuildinfo
+
+# Part 2 — Node, secrets, build, local DB (see also part_2/.gitignore)
+part_2/node_modules/
+part_2/dist/
+part_2/.env
+part_2/.env.local
+part_2/coverage/
+part_2/data/*.db

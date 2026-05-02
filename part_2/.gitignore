@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# `npm run build` output (tsc outDir)
+dist/
+
+# Local env (template `.env.example` stays tracked)
+.env
+.env.local
+.env.*.local
+
+# SQLite and local data dir
+*.db
+data/*.db
+
+# Test / tooling caches
+coverage/
+.nyc_output/
+*.tsbuildinfo
+.npm/
+
+# OS
+.DS_Store
